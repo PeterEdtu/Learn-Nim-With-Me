@@ -1,0 +1,29 @@
+
+Exercises
+
+    Create an empty array which can contain ten integers.
+
+        Fill that array with numbers 10, 20, …​, 100. (Hint: use loops)
+
+        Print only the elements of that array that are on odd indices (values 20, 40, …​).
+
+        Multiply elements on even indices by 5. Print the modified array.
+
+    Re-do the Collatz conjecture exercise, but this time instead of printing each step, add it to a sequence.
+
+        Pick a starting number. Interesting choices, among others, are 9, 19, 25 and 27.
+
+        Create a sequence whose only member is that starting number
+
+        Using the same logic as before, keep adding elements to the sequence until you reach 1
+
+        Print the length of the sequence, and the sequence itself
+
+    Find the number in a range from 2 to 100 which will produce the longest Collatz sequence.
+
+        For each number in the given range calculate its Collatz sequence
+
+        If the length of current sequence is longer than the previous record, save the current length and the starting number as a new record (you can use the tuple (longestLength, startingNumber) or two separate variables)
+
+        Print the starting number which gives the longest sequence, and its length
+
